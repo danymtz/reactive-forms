@@ -1,0 +1,11 @@
+<div>
+    <form action="" [formGroup]="formLogin" (submit)="onSubmit()">
+        <label for="">Name: </label>
+        <input id="name" name="name" type="text" formControlName="name"> <br><br>
+        <label for="">E-mail: </label>
+        <input id="email" name="email" type="text" formControlName="email"> <br><br>
+        <label for="">Password: </label>
+        <input id="password" name="password" type="password" formControlName="password"><br><br>
+        <button role="submit" type="submit">Save</button>
+    </form>
+</div>
